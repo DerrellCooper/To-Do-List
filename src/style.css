@@ -1,0 +1,35 @@
+/* .container{
+    width: 1920px;
+    height: auto;
+    min-height: 700px;
+} */
+
+.websiteBackground{
+    /* background-color: blue; */
+    /* background-image: url("./images/abstract-background-345.jpg"); */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    /* width: 100%; */
+    min-height: 550px;
+}
+    
+.list{
+    height: 550px;
+    border: solid red;
+}
+.list-2{
+   
+    border: solid red;
+    /* height: 525px; */
+}
+.completedList{
+    
+    text-decoration-line: line-through;
+    text-decoration-color: red;
+}
+.borderBottom{
+    border-bottom: 1px dashed white;
+    
+}
