@@ -121,7 +121,7 @@ function ListHeader(){
                     <div className="row p-2 justify-content-start">
                         {taskData[0] === '' ? <h3>Completed tasks will appear here.</h3> : <CompletedSection data={taskData} handleOnClick={onClick} />}
                     </div>
-                    <div className="row rrrmt-auto p-2 justify-content-end">
+                    <div className="row justify-content-end align-content-end">
                         <button className="btn btn-primary">Clear Completed</button>
                     </div>
                 </div>
